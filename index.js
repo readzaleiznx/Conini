@@ -46,7 +46,7 @@ say('KILL\nSEXO', {
   align: 'center',
   gradient: ['red', 'magenta']
 });
-say(`Sigueme en ig: @ineffable.mvrco`, {
+say(`Sigueme en ig como @ineffable.mvrco`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -231,7 +231,7 @@ async function connectionUpdate(update) {
     }
   }
   if (connection == 'open') {
-    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN】⸺⸺⸺⸺❒`))
+    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• @𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔 •】⸺⸺⸺⸺❒`))
   }
   let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
   if (connection === 'close') {
@@ -300,7 +300,7 @@ global.reloadHandler = async function (restatConn) {
 
 global.rutaJadiBot = join(__dirname, './JadiBots')
 
-if (global.MvrcoJadibts) {
+if (global.shadowJadibts) {
   if (!existsSync(global.rutaJadiBot)) {
     mkdirSync(global.rutaJadiBot, { recursive: true })
     console.log(chalk.bold.cyan(`La carpeta: ${jadi} se creó correctamente.`))

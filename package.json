@@ -1,5 +1,5 @@
 {
-    "name": "MvrcoSexo",
+    "name": "Mvrco Sexo",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -24,7 +24,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/MvrcoSexo.git"
+        "url": "git+https://github.com/KillzN/MvrcoSexo"
     },
     "bugs": {
         "url": "https://github.com/KillzN/MvrcoSexo/issues"
@@ -32,7 +32,7 @@
     "license": "GPL-3.0-or-later",
     "dependencies": {
         "@vitalets/google-translate-api": "^9.2.0",
-        "@whiskeysockets/baileys": "github:GataNina-Li/Baileys",
+        "@whiskeysockets/baileys": "npm:@izumi-xyz/meta",
         "google-libphonenumber": "latest",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^5.0.1",
