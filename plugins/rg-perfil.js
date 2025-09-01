@@ -66,7 +66,7 @@ const handler = async (m, { conn }) => {
     contextInfo: {
       mentionedJid: [userId],
       externalAdReply: {
-        title: 'Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN',
+        title: 'Pᴏʀɴʜᴜʙ: @BʏMunecaBot',
         body: club,
         thumbnailUrl: perfilUrl,
         mediaType: 1,

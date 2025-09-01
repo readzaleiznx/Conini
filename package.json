@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/MvrcoSexo",
+    "homepage": "https://github.com/KillzN/MunecaBot",
     "author": {
         "name": "Cristian Escobar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/MvrcoSexo"
+        "url": "git+https://github.com/KillzN/MunecaBot"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/MvrcoSexo/issues"
+        "url": "https://github.com/KillzN/MunecaBot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
