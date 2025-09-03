@@ -45,9 +45,9 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
   });
 };
 
-handler.help = ['tagall', 'todos'];
+handler.help = ['tagall1', 'todos1'];
 handler.tags = ['group'];
-handler.command = /^(tagall|invocar|todos|invocación)$/i;
+handler.command = /^(tagall2|invocar2|todos3|invocación4)$/i;
 handler.admin = true;
 handler.group = true;
 
