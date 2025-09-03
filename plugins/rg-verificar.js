@@ -60,7 +60,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
                 title: 'Pᴏʀɴʜᴜʙ: alexdre_sa',
                 body: club,
                 thumbnailUrl: 'https://files.catbox.moe/nwqdwh.jpg',
-                sourceUrl: 'https://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z',
+                sourceUrl: 'https://whatsapp.com/channel/0029Vb3BTIU2ZjCs8Scv1U0u',
                 mediaType: 1,
                 showAdAttribution: true,
                 renderLargerThumbnail: true

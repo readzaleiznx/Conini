@@ -1,6 +1,6 @@
 /* País Info By WillZek 
 - https://github.com/WillZek 
-- https://whatsapp.com/channel/0029Vb1AFK6HbFV9kaB3b13W
+- https://whatsapp.com/channel/0029Vb3BTIU2ZjCs8Scv1U0u
 */
 
 import fetch from 'node-fetch';
