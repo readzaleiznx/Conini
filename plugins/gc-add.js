@@ -1,7 +1,7 @@
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-    if (!text) return conn.reply(m.chat, `*${emojis} Ingrese el número al que quiere enviar una invitación al grupo.*\n\n*Ejemplo:*\n*${usedPrefix + command}* 51992621601`, m, rcanal)
-    if (text.includes('+')) return conn.reply(`*${emojis} Ingrese el número todo junto sin el +*`, m, rcanal)
-    if (isNaN(text)) return conn.reply(m.chat, `*Ingrese sólo números más su código de país sin espacios*`, m, rcanal)
+    if (!text) return conn.reply(m.chat, `*${emojis} Ingrese el número al que quiere enviar una invitación al grupo.*\n\n*Ejemplo:*\n*${usedPrefix + command}* 51992621601`, m, )
+    if (text.includes('+')) return conn.reply(`*${emojis} Ingrese el número todo junto sin el +*`, m, )
+    if (isNaN(text)) return conn.reply(m.chat, `*Ingrese sólo números más su código de país sin espacios*`, m, )
     let group = m.chat
     let link = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group)
 

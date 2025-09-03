@@ -21,7 +21,7 @@ let handler = async (m, { conn, text, participants }) => {
             }
         }
     }
-    if (total == 0) return conn.reply(m.chat, `*[⚔️] En Este Grupo No Hay Fantasmas✨🍷*`, m, rcanal)
+    if (total == 0) return conn.reply(m.chat, `*[⚔️] En Este Grupo No Hay Fantasmas✨🍷*`, m, )
 
     const stickerUrl = 'https://files.catbox.moe/agx2sc.webp';
     m.react('💫')

@@ -16,21 +16,21 @@ export async function before(m, { isAdmin, isBotAdmin, conn }) {
   const grupo = `https://chat.whatsapp.com`
 
   if (isAdmin && chat.antiLink && m.text.includes(grupo))
-    return conn.reply(m.chat, `*☕ Hey!! el \`antilink\` está activo pero eres admin, ¡salvado!*`, m, rcanal)
+    return conn.reply(m.chat, `*☕ Hey!! el \`antilink\` está activo pero eres admin, ¡salvado!*`, m, )
 
   if (chat.antiLink && isGroupLink && !isAdmin) {
     if (isBotAdmin) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
       if (m.text.includes(linkThisGroup)) return !0
     }
-    await conn.reply(m.chat, `*☕ ¡Enlace detectado!*\n\n*${await this.getName(m.sender)} mandaste un enlace prohibido por lo cual serás eliminado*`, m, rcanal)
+    await conn.reply(m.chat, `*☕ ¡Enlace detectado!*\n\n*${await this.getName(m.sender)} mandaste un enlace prohibido por lo cual serás eliminado*`, m, )
     if (!isBotAdmin)
-      return conn.reply(m.chat, `*☕ No soy admin, no puedo eliminar intrusos*`, m, rcanal)
+      return conn.reply(m.chat, `*☕ No soy admin, no puedo eliminar intrusos*`, m, )
     if (isBotAdmin) {
       await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: bang, participant: delet }})
       await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
     } else if (!bot.restrict) {
-      return conn.reply(m.chat, `*☕ Esta característica está desactivada*`, m, rcanal)
+      return conn.reply(m.chat, `*☕ Esta característica está desactivada*`, m, )
     }
   }
 

@@ -25,7 +25,7 @@ const fetchSticker = async (text, attempt = 1) => {
 
 const handler = async (m, { text, conn }) => {
     if (!text) {
-        return conn.reply(m.chat, `*${xsticker} Por favor, ingresa un texto para realizar tu sticker.*`, m, rcanal);
+        return conn.reply(m.chat, `*${xsticker} Por favor, ingresa un texto para realizar tu sticker.*`, m, );
     }
 
     try {
