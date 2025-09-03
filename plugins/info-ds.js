@@ -35,7 +35,7 @@ var handler = async (m, { conn, usedPrefix }) => {
         }
     } catch (err) {
         console.error('Error al leer la carpeta o los archivos de sesión:', err)
-        await conn.reply(m.chat, '*👋🏻 ¡Hola Soy \`DefenderBot\` Sigue el Canal!*', m, rcanal)
+        await conn.reply(m.chat, '*👋🏻 ¡Hola Soy \`Defen\` Sigue el Canal!*', m, rcanal)
     }
 
 }

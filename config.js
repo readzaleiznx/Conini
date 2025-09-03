@@ -14,7 +14,7 @@ global.botNumber = '' //Ejemplo: 51992621601
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['51992621601', 'DefenderBot', true]
+  ['51992621601', 'Defen', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
@@ -25,12 +25,12 @@ global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.namebot = 'DefenderBot'
+global.namebot = 'Defen'
 global.packname = ' '
 global.botname = 'alexdre_sa'
 global.wm = 'ALEIZN'
 global.author = 'alexdre_sa'
-global.dev = 'DefenderBot'
+global.dev = 'Defen'
 global.club = 'Mᴠʀᴄᴏ Sᴇxᴏ'
 global.textbot = 'Mᴠʀᴄᴏ Sᴇxᴏ'
 global.etiqueta = 'alexdre_sa'
@@ -65,7 +65,7 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/Aleizn/DefenderBot'
+global.github = 'https://github.com/Aleizn/Defen'
 global.grupo = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
 global.comu = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
 global.channel = 'https://whatsapp.com/channel/0029Vb3BTIU2ZjCs8Scv1U0u'

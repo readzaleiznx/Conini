@@ -20,7 +20,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 `.trim()).join('\n________________________\n\n')
 
   let teks = `\`\`\`乂 YOUTUBE - SEARCH\`\`\`\n\n${ms}`
-  teks += `\n\n> Pᴏʀɴʜᴜʙ: @BʏDefenderBot`
+  teks += `\n\n> Pᴏʀɴʜᴜʙ: @BʏDefen`
 
   conn.sendFile(m.chat, tes[0].image, 'yts.jpeg', teks, m)
 }

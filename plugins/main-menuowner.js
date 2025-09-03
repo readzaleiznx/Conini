@@ -13,7 +13,7 @@ const handler = async (m, { conn, usedPrefix, text }) => {
     const str = `
 🌐 *\`Menú Owner\`*
 ────────────────────────────
-*🌴 Nombre:* DefenderBot
+*🌴 Nombre:* Defen
 *☕ Creador:* alexdre_sa
 *📞 Número Creador:* +51992621601
 \`Lista de Comandos\`

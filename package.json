@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/Aleizn/DefenderBot",
+    "homepage": "https://github.com/Aleizn/Defen",
     "author": {
         "name": "Cristian Escobar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Aleizn/DefenderBot"
+        "url": "git+https://github.com/Aleizn/Defen"
     },
     "bugs": {
-        "url": "https://github.com/Aleizn/DefenderBot/issues"
+        "url": "https://github.com/Aleizn/Defen/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
