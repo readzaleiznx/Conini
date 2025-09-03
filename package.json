@@ -1,5 +1,5 @@
 {
-    "name": "Mvrco Sexo",
+    "name": "Aleizn",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/MunecaBot",
+    "homepage": "https://github.com/Aleizn/DefenderBot",
     "author": {
         "name": "Cristian Escobar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/MunecaBot"
+        "url": "git+https://github.com/Aleizn/DefenderBot"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/MunecaBot/issues"
+        "url": "https://github.com/Aleizn/DefenderBot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

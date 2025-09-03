@@ -43,7 +43,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     }
 
     let sn = createHash('md5').update(m.sender).digest('hex')
-    let regbot = `*Registro* ㅤﾉㅤ *Completo*\nㅤjosssi_bot.ff\n\n`
+    let regbot = `*Registro* ㅤﾉㅤ *Completo*\nㅤalexdre_sa\n\n`
     regbot += `✧⃝ᓚ⩺ \`Nombre:\` ${name}\n`
     regbot += `✧⃝ᓚ⩺ \`Edad:\` ${age} años\n\n`
     regbot += `✧⃝ᓚ⩺  *Recompensa ࣲ* ׅ  ☕ᩨ  \n\n`
@@ -57,7 +57,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
         text: regbot,
         contextInfo: {
             externalAdReply: {
-                title: 'Pᴏʀɴʜᴜʙ: josssi_bot.ff',
+                title: 'Pᴏʀɴʜᴜʙ: alexdre_sa',
                 body: club,
                 thumbnailUrl: 'https://files.catbox.moe/nwqdwh.jpg',
                 sourceUrl: 'https://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z',

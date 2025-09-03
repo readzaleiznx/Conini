@@ -11,7 +11,7 @@ import fs, { readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileS
 import yargs from 'yargs';
 import { spawn } from 'child_process'
 import lodash from 'lodash'
-import { MunecaJadiBot } from './plugins/serbot-jadibot.js'
+import { AleiznJadiBot } from './plugins/serbot-jadibot.js'
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
 import { tmpdir } from 'os'
@@ -41,12 +41,12 @@ let { say } = cfonts
 
 console.log(chalk.bold.redBright(`\n💻 Iniciando Sistema...\n`))
 
-say('KILL\nSEXO', {
+say('Ale\nSEXO', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 });
-say(`Sigueme en ig como @josssi_bot.ff`, {
+say(`Sigueme en ig como @alexdre_sa`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -186,7 +186,7 @@ if (!fs.existsSync(`./${sessions}/creds.json`)) {
       } else {
         do {
 
-          phoneNumber = await question(chalk.bgBlack(chalk.bold.redBright(`Por favor, Ingresa el número de WhatsApp\n${chalk.bold.blueBright("Copia el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.blueBright("Ejemplo: 50764880277")}\n${chalk.bold.magentaBright('---> ')}`)))
+          phoneNumber = await question(chalk.bgBlack(chalk.bold.redBright(`Por favor, Ingresa el número de WhatsApp\n${chalk.bold.blueBright("Copia el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.blueBright("Ejemplo: 51992621601")}\n${chalk.bold.magentaBright('---> ')}`)))
 
           phoneNumber = phoneNumber.replace(/\D/g, '')
           if (!phoneNumber.startsWith('+')) {
@@ -231,7 +231,7 @@ async function connectionUpdate(update) {
     }
   }
   if (connection == 'open') {
-    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• josssi_bot.ff •】⸺⸺⸺⸺❒`))
+    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• alexdre_sa •】⸺⸺⸺⸺❒`))
   }
   let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
   if (connection === 'close') {
@@ -315,7 +315,7 @@ if (global.shadowJadibts) {
       const botPath = join(rutaJadiBot, gjbts)
       const readBotPath = readdirSync(botPath)
       if (readBotPath.includes(creds)) {
-        MunecaJadiBot({ pathMunecaJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
+        AleiznJadiBot({ pathAleiznJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
       }
     }
   }

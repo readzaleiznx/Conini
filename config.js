@@ -9,33 +9,33 @@ import moment from 'moment-timezone'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.botNumber = '' //Ejemplo: 50764880277
+global.botNumber = '' //Ejemplo: 51992621601
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['50764880277', 'MunecaBot', true]
+  ['51992621601', 'DefenderBot', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.mods = []
-global.suittag = ['50764880277']
+global.suittag = ['51992621601']
 global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.namebot = 'MunecaBot'
+global.namebot = 'DefenderBot'
 global.packname = ' '
-global.botname = 'josssi_bot.ff'
-global.wm = '𝙺𝙸𝙻𝙻 𝙱𝙾𝚃'
-global.author = 'josssi_bot.ff'
-global.dev = 'MunecaBot'
+global.botname = 'alexdre_sa'
+global.wm = 'ALEIZN'
+global.author = 'alexdre_sa'
+global.dev = 'DefenderBot'
 global.club = 'Mᴠʀᴄᴏ Sᴇxᴏ'
 global.textbot = 'Mᴠʀᴄᴏ Sᴇxᴏ'
-global.etiqueta = 'josssi_bot.ff'
+global.etiqueta = 'alexdre_sa'
 global.jadi = 'JadiBots'
-global.sessions = 'MunecaSession'
+global.sessions = 'AleiznSession'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
@@ -65,16 +65,16 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/KillzN/MunecaBot'
-global.grupo = 'https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz'
-global.comu = 'https://chat.whatsapp.com/Ehs4pdSEW4o9ub8G3SPVaT'
-global.channel = 'https://www.whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z'
-global.ig = 'https://www.instagram.com/josssi_bot.ff'
+global.github = 'https://github.com/Aleizn/DefenderBot'
+global.grupo = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
+global.comu = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
+global.channel = 'https://whatsapp.com/channel/0029Vb3BTIU2ZjCs8Scv1U0u'
+global.ig = 'https://www.instagram.com/alexdre_sa'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
-global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "50764880277-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'Mvrco Sexo', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
+global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51992621601-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'Aleizn', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
 global.multiplier = 70
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─

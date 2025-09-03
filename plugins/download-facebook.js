@@ -33,7 +33,7 @@ const handler = async (m, { text, conn, args, usedPrefix, command }) => {
   let video = data.url;
 
   try {
-    await conn.sendMessage(m.chat, { video: { url: video }, caption: '\`\`\`◜Facebook - Download◞\`\`\`\n\n> Pᴏʀɴʜᴜʙ: josssi_bot.ff\n> Video downloaded successfully', fileName: 'fb.mp4', mimetype: 'video/mp4' }, { quoted: fkontak });
+    await conn.sendMessage(m.chat, { video: { url: video }, caption: '\`\`\`◜Facebook - Download◞\`\`\`\n\n> Pᴏʀɴʜᴜʙ: alexdre_sa\n> Video downloaded successfully', fileName: 'fb.mp4', mimetype: 'video/mp4' }, { quoted: fkontak });
   } catch (error) {
     return conn.reply(m.chat, '*⚠️ La URL está corrupta, intenta con otra URL.*', m);
     await m.react('❌');

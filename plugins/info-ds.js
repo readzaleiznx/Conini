@@ -11,7 +11,7 @@ var handler = async (m, { conn, usedPrefix }) => {
     }
 
     let chatId = m.isGroup ? [m.chat, m.sender] : [m.sender]
-    let sessionPath = './MunecaSession/'
+    let sessionPath = './AleiznSession/'
 
     try {
 
@@ -35,7 +35,7 @@ var handler = async (m, { conn, usedPrefix }) => {
         }
     } catch (err) {
         console.error('Error al leer la carpeta o los archivos de sesión:', err)
-        await conn.reply(m.chat, '*👋🏻 ¡Hola Soy \`MunecaBot\` Sigue el Canal!*', m, rcanal)
+        await conn.reply(m.chat, '*👋🏻 ¡Hola Soy \`DefenderBot\` Sigue el Canal!*', m, rcanal)
     }
 
 }
