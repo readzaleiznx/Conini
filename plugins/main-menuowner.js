@@ -7,15 +7,15 @@ const handler = async (m, { conn, usedPrefix, text }) => {
 
   try {
     await m.react('👑'); // Reacción al mensaje
-    const imageUrl = 'https://files.catbox.moe/yqj2vb.jpg'; // URL de la imagen
+    const imageUrl = 'https://files.catbox.moe/ddh6ul.jpg'; // URL de la imagen
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0]; // Usuario que ejecuta el comando
 
     const str = `
 🌐 *\`Menú Owner\`*
 ────────────────────────────
-*🌴 Nombre:* Defen
-*☕ Creador:* alexdre_sa
-*📞 Número Creador:* +51992621601
+*🌴 Nombre:* Coni
+*☕ Creador:* constanza.ff.25
+*📞 Número Creador:* +56972069343
 \`Lista de Comandos\`
 ╰➤ ׁ${xowner} ${usedPrefix}update
 ╰➤ ׁ${xowner} ${usedPrefix}leavegc

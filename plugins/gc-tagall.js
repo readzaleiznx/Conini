@@ -23,13 +23,13 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
       if (countryFlags[phonePrefix]) return countryFlags[phonePrefix];
     }
 
-    return '🏁';
+    return '💖';
   };
 
   const pesan = args.join` `;
   const groupMetadata = await conn.groupMetadata(m.chat);
   const groupName = groupMetadata.subject;
-  let teks = `*${groupName}*\n\nhttps://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX\n`;
+  let teks = `*${groupName}*\n\nhttps://chat.whatsapp.com/FmXpGxBxDFHBXTmC5wMFGt?mode=ems_copy_c\n`;
   teks += `𝙈𝙞𝙚𝙢𝙗𝙧𝙤𝙨: *${participants.length}*\n`;
   teks += `${pesan}\n┌──⭓ 𝙇𝙞𝙨𝙩𝙖\n`;
 
@@ -38,7 +38,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
     teks += `${flagOrEmoji} @${mem.id.split('@')[0]}\n`;
   }
 
-  teks += `└───────⭓\n\n> AleiznVentas`;
+  teks += `└───────⭓\n\n> 💖 NezukoVentas`;
   await conn.sendMessage(m.chat, { 
     text: teks,
     mentions: participants.map((a) => a.id)

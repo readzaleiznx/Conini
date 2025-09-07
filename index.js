@@ -11,7 +11,7 @@ import fs, { readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileS
 import yargs from 'yargs';
 import { spawn } from 'child_process'
 import lodash from 'lodash'
-import { AleiznJadiBot } from './plugins/serbot-jadibot.js'
+import { NezukoJadiBot } from './plugins/serbot-jadibot.js'
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
 import { tmpdir } from 'os'
@@ -46,7 +46,7 @@ say('Ale\nSEXO', {
   align: 'center',
   gradient: ['red', 'magenta']
 });
-say(`Sigueme en ig como @alexdre_sa`, {
+say(`Sigueme en ig como @constanza.ff.25`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -186,7 +186,7 @@ if (!fs.existsSync(`./${sessions}/creds.json`)) {
       } else {
         do {
 
-          phoneNumber = await question(chalk.bgBlack(chalk.bold.redBright(`Por favor, Ingresa el número de WhatsApp\n${chalk.bold.blueBright("Copia el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.blueBright("Ejemplo: 51992621601")}\n${chalk.bold.magentaBright('---> ')}`)))
+          phoneNumber = await question(chalk.bgBlack(chalk.bold.redBright(`Por favor, Ingresa el número de WhatsApp\n${chalk.bold.blueBright("Copia el número de WhatsApp y péguelo en la consola.")}\n${chalk.bold.blueBright("Ejemplo: 56972069343")}\n${chalk.bold.magentaBright('---> ')}`)))
 
           phoneNumber = phoneNumber.replace(/\D/g, '')
           if (!phoneNumber.startsWith('+')) {
@@ -231,7 +231,7 @@ async function connectionUpdate(update) {
     }
   }
   if (connection == 'open') {
-    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• alexdre_sa •】⸺⸺⸺⸺❒`))
+    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【• constanza.ff.25 •】⸺⸺⸺⸺❒`))
   }
   let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
   if (connection === 'close') {
@@ -315,7 +315,7 @@ if (global.shadowJadibts) {
       const botPath = join(rutaJadiBot, gjbts)
       const readBotPath = readdirSync(botPath)
       if (readBotPath.includes(creds)) {
-        AleiznJadiBot({ pathAleiznJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
+        NezukoJadiBot({ pathNezukoJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
       }
     }
   }

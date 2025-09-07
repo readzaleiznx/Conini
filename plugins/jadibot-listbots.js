@@ -41,7 +41,7 @@ async function handler(m, { conn: stars, usedPrefix }) {
 
   const message = users.map((v, index) => {
     const jidNum = v.user.jid.replace(/[^0-9]/g, '')
-    return `⪧ *\`${index + 1}.-\`* *SubBot - Aleizn*
+    return `⪧ *\`${index + 1}.-\`* *SubBot - Nezuko*
 ᦷᩘᦷ @${jidNum}
 🌴 *Nombre:* ${v.user.name || 'Desconocido'}
 🌿 *Link:* https://wa.me/${jidNum}`

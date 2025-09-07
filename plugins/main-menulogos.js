@@ -4,7 +4,7 @@ const handler = async (m, { conn, usedPrefix, text }) => {
 
   try {
     await m.react('🌴');
-    const imageUrl = 'https://files.catbox.moe/yqj2vb.jpg'; // Cambié la URL al enlace de la imagen
+    const imageUrl = 'https://files.catbox.moe/ddh6ul.jpg'; // Cambié la URL al enlace de la imagen
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
 
     const str = `

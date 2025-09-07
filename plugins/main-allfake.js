@@ -33,9 +33,9 @@ handler.all = async function (m) {
   //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
   //CREADOR Y OTROS
-  global.creador = 'Wa.me/51992621601'
+  global.creador = 'Wa.me/56972069343'
   global.botreal = `${(conn.user.jid == global.conn.user.jid ? '*Bot:* Oficial' : `*SubBot de: ${conn.user.jid.split('@')[0]}*`)}`
-  global.asistencia = 'Wa.me/51992621601'
+  global.asistencia = 'Wa.me/56972069343'
 
   //REACCIONES 
   global.rwait = '🕒'
@@ -57,9 +57,9 @@ handler.all = async function (m) {
   global.mistake = '*✖️ Error en el comando*\n*Por favor, intenta nuevamente más tarde. Si esto persiste envia:*\n> #report El comando (comando) no funciona.';
 
   //ENLACES
-  var group = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
+  var group = 'https://chat.whatsapp.com/FmXpGxBxDFHBXTmC5wMFGt?mode=ems_copy_c'
   var web = 'https://shadow-bot.vercel.app/'
-  let instagram = 'https://www.instagram.com/alexdre_sa'
+  let instagram = 'https://www.instagram.com/constanza.ff.25'
 
   global.redes = [group, web, instagram].getRandom()
 

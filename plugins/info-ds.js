@@ -11,7 +11,7 @@ var handler = async (m, { conn, usedPrefix }) => {
     }
 
     let chatId = m.isGroup ? [m.chat, m.sender] : [m.sender]
-    let sessionPath = './AleiznSession/'
+    let sessionPath = './NezukoSession/'
 
     try {
 

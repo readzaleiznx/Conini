@@ -350,7 +350,7 @@ export async function handler(chatUpdate) {
                     if (m.text && user.banned && !isROwner) {
                         if (user.antispam > 2) return
                         m.reply(`*🚫 Está baneado(a), no puede usar los comandos de este bot!*\n\n${user.bannedReason ? `\n💌 *Motivo:* 
-${user.bannedReason}` : '💌 *Motivo:* Sin Especificar'}\n\n⚠️ *Si cree que es un error contacte con mi creador:*\n- wa.me/51992621601`)
+${user.bannedReason}` : '💌 *Motivo:* Sin Especificar'}\n\n⚠️ *Si cree que es un error contacte con mi creador:*\n- wa.me/56972069343`)
                         user.antispam++
                         return
                     }

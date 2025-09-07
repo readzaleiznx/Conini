@@ -9,33 +9,33 @@ import moment from 'moment-timezone'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.botNumber = '' //Ejemplo: 51992621601
+global.botNumber = '' //Ejemplo: 56972069343
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['51992621601', 'Defen', true]
+  ['56972069343', 'Defen', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.mods = []
-global.suittag = ['51992621601']
+global.suittag = ['56972069343']
 global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.namebot = 'Defen'
 global.packname = ' '
-global.botname = 'alexdre_sa'
-global.wm = 'ALEIZN'
-global.author = 'alexdre_sa'
+global.botname = 'constanza.ff.25'
+global.wm = 'Nezuko'
+global.author = 'constanza.ff.25'
 global.dev = 'Defen'
-global.club = 'Aleizn Sexo'
-global.textbot = 'Aleizn Sexo'
-global.etiqueta = 'alexdre_sa'
+global.club = 'Nezuko Sexo'
+global.textbot = 'Nezuko Sexo'
+global.etiqueta = 'constanza.ff.25'
 global.jadi = 'JadiBots'
-global.sessions = 'AleiznSession'
+global.sessions = 'NezukoSession'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
@@ -65,16 +65,16 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/Aleizn/Defen'
-global.grupo = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
-global.comu = 'https://chat.whatsapp.com/LSFhllEEKW8HAP7eGwQpiX'
+global.github = 'https://github.com/Nezuko/Defen'
+global.grupo = 'https://chat.whatsapp.com/FmXpGxBxDFHBXTmC5wMFGt?mode=ems_copy_c'
+global.comu = 'https://chat.whatsapp.com/FmXpGxBxDFHBXTmC5wMFGt?mode=ems_copy_c'
 global.channel = 'https://whatsapp.com/channel/0029Vb3BTIU2ZjCs8Scv1U0u'
-global.ig = 'https://www.instagram.com/alexdre_sa'
+global.ig = 'https://www.instagram.com/constanza.ff.25'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
-global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51992621601-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'Aleizn', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
+global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "56972069343-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'Nezuko', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
 global.multiplier = 70
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─

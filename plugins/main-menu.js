@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
         let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
         await m.react('🌹')
 
-        const imageUrl = 'https://files.catbox.moe/yqj2vb.jpg';
+        const imageUrl = 'https://files.catbox.moe/ddh6ul.jpg';
         let menu = `
 🌐 *\`Menú Principal\`*
 ────────────────────────────

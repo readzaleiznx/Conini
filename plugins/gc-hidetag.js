@@ -1,4 +1,4 @@
-//Código desarollado por Semi, https://wa.me/51992621601)
+//Código desarollado por Semi, https://wa.me/56972069343)
 let handler = async (m, { conn, text, participants }) => {
   const mime = m.mtype
   const type = /imageMessage|videoMessage|conversation|extendedTextMessage/.test(mime)

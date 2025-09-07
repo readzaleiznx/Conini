@@ -1,5 +1,5 @@
 {
-    "name": "Aleizn",
+    "name": "Nezuko",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/Aleizn/Defen",
+    "homepage": "https://github.com/nezuko/Defen",
     "author": {
         "name": "Cristian Escobar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Aleizn/Defen"
+        "url": "git+https://github.com/Nezuko/Defen"
     },
     "bugs": {
-        "url": "https://github.com/Aleizn/Defen/issues"
+        "url": "https://github.com/Nezuko/Defen/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

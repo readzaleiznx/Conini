@@ -10,9 +10,9 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     // VCARD
     let list = [{
-        displayName: "Aleizn",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Aleizn
-\nitem1.TEL;waid=51992621601:51992621601\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: alexdre_sa@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/alexdre_sa\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+        displayName: "Nezuko",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Nezuko
+\nitem1.TEL;waid=56972069343:56972069343\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: constanza.ff.25@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/constanza.ff.25\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -26,7 +26,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 title: 'Hello, I am the official creator of MvrcoSex.',
                 body: dev,
                 thumbnailUrl: 'https://files.catbox.moe/yqj2vb.jpg',
-                sourceUrl: 'https://wa.me/51992621601?text=Hola+quiero+adquirir+bot',
+                sourceUrl: 'https://wa.me/56972069343?text=Hola+quiero+adquirir+bot',
                 mediaType: 1,
                 renderLargerThumbnail: true
             }
